@@ -14,8 +14,8 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.ftp.c81.669.mytemp.website }}
-          username: ${{ secrets.user@fareairtravel.com }}
-          password: ${{ secrets.F@reA!R1234 }}
-          local-dir: ./                 # adjust if your built site is in a subfolder like ./dist
-          server-dir: ${{ secrets./public_html/fareairtravel.com }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./                     # adjust if build files are in ./dist
+          server-dir: /public_html/fareairtravel.com/
