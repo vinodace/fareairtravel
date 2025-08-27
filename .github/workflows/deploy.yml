@@ -1,0 +1,21 @@
+name: Deploy via FTP
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.ftp.c81.669.mytemp.website }}
+          username: ${{ secrets.user@fareairtravel.com }}
+          password: ${{ secrets.F@reA!R1234 }}
+          local-dir: ./                 # adjust if your built site is in a subfolder like ./dist
+          server-dir: ${{ secrets./public_html/fareairtravel.com }}
