@@ -1,7 +1,7 @@
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]+$
 RewriteCond %{HTTPS}s ^on(s)|
-RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^(.*)$ https://www.fareairtravel.com/$1/ [L,R=301]
 
 
 

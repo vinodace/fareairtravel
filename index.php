@@ -7,8 +7,10 @@
 <meta property="og:title" content="Fareair Travel | Book Flights, Hotels, Car & Tours" />
 <meta property="og:description" content="Book flights, hotels, car rentals, and tours in one place. Discover affordable deals, secure bookings, and unforgettable travel experiences worldwide." />
 <meta property="og:url" content="https://www.fareairtravel.com/" />
-<meta property="og:image" content="https://www.fareairtravel.com/logo.png" />
+<meta property="og:image" content="https://www.fareairtravel.com/images/logo.png" />
 <meta property="og:type" content="website" />
+
+<link rel="canonical" href="https://www.fareairtravel.com/" />
 
 <?php include("header.php"); ?>
 <div class="position-relative">
