@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>fareair Travel | Tour and Travel Website</title>
+  <title>Fareair Travel | Tour and Travel Website</title>
 
 <?php include("header.php"); ?>
 <div class="position-relative">
