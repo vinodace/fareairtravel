@@ -1,9 +1,9 @@
-<form action="search-cruise.php" method="post" onsubmit="return validateForm()">
+<form action="search-cruise.php" class="crusie-filter" method="post" onsubmit="return validateForm()">
   <div class="row">
     <div class="col-sm-4 col-md-3 col-lg-2">
       <div class="form-group">
-        <label class="cruise-label">Desination</label>
-        <select class="cruise-field" name="destination" id="destination">
+        <label class="cruise-filter-label">Desination</label>
+        <select class="cruise-filter-field" name="destination" id="destination">
           <option value="0">Select Destination</option>
           <option value="Alaska">Alaska</option>
           <option value="Bahamas">Bahamas</option>
@@ -86,8 +86,8 @@
     </div>
     <div class="col-sm-4 col-md-3 col-lg-2">
       <div class="form-group">
-        <label class="cruise-label">Departure Port</label>
-        <select class="cruise-field" name="departure_port" id="departure_port">
+        <label class="cruise-filter-label">Departure Port</label>
+        <select class="cruise-filter-field" name="departure_port" id="departure_port">
           <option value="0" selected="selected">Select Departure Port</option>
           <option value="Barcelona">Barcelona</option>
           <option value="Edinburgh">Edinburgh</option>
@@ -387,8 +387,8 @@
     </div>
     <div class="col-sm-4 col-md-3 col-lg-2">
       <div class="form-group">
-        <label class="cruise-label">Month</label>
-        <select class="cruise-field" name="departure_month" id="departure_month">
+        <label class="cruise-filter-label">Month</label>
+        <select class="cruise-filter-field" name="departure_month" id="departure_month">
           <option value="0" selected="selected">Select Month</option>
           <option value="2025-07-01 00:00:00|2025-07-31 23:59:59">July 2025</option>
           <option value="2025-08-01 00:00:00|2025-08-31 23:59:59">August 2025</option>
@@ -436,8 +436,8 @@
     </div>
     <div class="col-sm-4 col-md-3 col-lg-2">
       <div class="form-group">
-        <label class="cruise-label">Length</label>
-        <select class="cruise-field" name="length" id="length" >
+        <label class="cruise-filter-label">Length</label>
+        <select class="cruise-filter-field" name="length" id="length" >
           <option value="0" selected="selected">Select Length</option>
           <option value="3 - 5 Nights">3 - 5 Nights</option>
           <option value="6 - 9 Nights">6 - 9 Nights</option>
@@ -448,8 +448,8 @@
     </div>
     <div class="col-sm-4 col-md-3 col-lg-2">
       <div class="form-group">
-        <label class="cruise-label">Cruise Lines</label>
-        <select class="cruise-field" name="cruise_line" id="cruise_line">
+        <label class="cruise-filter-label">Cruise Lines</label>
+        <select class="cruise-filter-field" name="cruise_line" id="cruise_line">
           <option value="0" selected="selected">All Cruise Lines</option>
           <option value="AmaWaterways">AmaWaterways</option>
           <option value="Atlas Ocean Voyages">Atlas Ocean Voyages</option>
@@ -481,8 +481,8 @@
       </div>
     </div>
     <div class="col-sm-4 col-md-3 col-lg-2">
-      <label class="cruise-label">&nbsp;</label>
-      <button type="submit" name="submit" class="cruise-btn">Search</button>
+      <label class="cruise-filter-label">&nbsp;</label>
+      <button type="submit" name="submit" class="cruise-filter-btn">Search</button>
     </div>
   </div>
 </form>

@@ -46,12 +46,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <li>Month: <?php echo $departure_month; ?></li>
             <li>Length: <?php echo $length; ?></li>
           </ul>
-          <p class="wrap-prgh text-center pt-2">Prices shown are per guest, inclusive of taxes and port fees. Additional baggage fees may apply.</p>
+          <p class="wrap-prgh_001 text-center pt-2">Prices shown are per guest, inclusive of taxes and port fees. Additional baggage fees may apply.</p>
           <h2 class="wait-hding pt-4">Please Wait...</h2>
-          <p class="wrap-prgh text-center fw-bold">Search and compare the best cruise deals from top cruise lines—all in one place.</p>
+          <p class="wrap-prgh_001 text-center fw-bold">Search and compare the best cruise deals from top cruise lines—all in one place.</p>
 
           <img src="images/loader.gif" alt="loader" class="search-form-loader">
-          <p class="wrap-prgh text-center">Still searching... Have questions? Our experts are just a call away</p>
+          <p class="wrap-prgh_001 text-center">Still searching... Have questions? Our experts are just a call away</p>
           <a href="tel:<?php echo $phone; ?>" class="search-form-callbtn"><i class="fa-solid fa-phone-volume"></i> Call Us <?php echo $phone; ?></a>
         </div>
         

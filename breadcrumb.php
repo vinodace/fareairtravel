@@ -21,8 +21,8 @@ if (!in_array($currentFile, $excludedPages)) {
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h1 class="breadcrumb-hding"><?php echo $currentPage; ?></h1>
-        <ul class="breadcrumb-ullist">
+        <!-- <h1 class="breadcrumb-hding_001"><?php echo $currentPage; ?></h1> -->
+        <ul class="breadcrumb-ullist_001">
           <li><a href="./">Home</a></li>
           <li><?php echo $currentPage; ?></li>
         </ul>

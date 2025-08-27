@@ -1,0 +1,7 @@
+FTP
+
+Host: ftp.c81.669.mytemp.website / 92.205.150.118
+Username: user@fareairtravel.com
+Password: F@reA!R1234
+Port: 21
+

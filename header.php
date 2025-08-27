@@ -8,7 +8,7 @@
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<!-- Favicon icon -->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"> 
     <!-- Custom css -->
@@ -33,49 +33,21 @@
 </head>
 <body>
 <header>
-	<!-- <div class="container-fluid header-topstrip">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-md-8 col-lg-6">	
-					<ul class="toplist">
-						<li><a href="#"><i class="fas fa-mobile-alt"></i> <?php echo $phone; ?></a></li>
-						<li><a href="#"><i class="far fa-envelope"></i> <?php echo $email; ?></a></li>
-					</ul>
-				</div>
-				<div class="col-sm-6 col-md-4 col-lg-6">
-					<div class="float-sm-end">
-						<ul class="toplist me-3 d-md-none d-lg-inline-flex">
-							<li><a href="about-us.php">About Us</a></li>
-							<li><a href="blog.php">Blog</a></li>
-							<li><a href="contact-us.php">Contact Us</a></li>
-						</ul>
-						<ul class="top-socialicon">
-							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-		</div>	
-	</div> --><!-- Top Strip -->
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-light navlr-pad">
 		  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button> -->
-		  <!-- <button class="navbar-toggler mobicon" type="button">
+		  <!-- <button class="navbar-toggler mobile_menu_icon" type="button">
 		    <span class="navbar-toggler-icon"></span>
 		  </button> -->
-		  <div class="mobicon">
+		  <div class="mobile_menu_icon">
 	    	<span></span>
 	    	<span></span>
 	    	<span></span>
 	    </div>
 		  <a class="navbar-brand" href="./">
-		  	<img src="images/logo-white.png" alt="" class="logo">
+		  	<img src="images/logo.png" alt="" class="logo">
 		  </a>
 		  
 
@@ -146,16 +118,10 @@
 		        	Offers
 		        </a>
 		      </li>
-		      <!-- <li class="nav-item">
-		      	<a class="nav-link" href="about-us.php">
-		      		<i class="fa-solid fa-user"></i>
-		      		About Us
-		      	</a>
-		      </li> -->
 			  <li class="nav-item">
 			  	<a class="nav-link header-btn" href="tel:<?php echo $phone; ?>">
 			  		<i class="fa-solid fa-phone-volume"></i>
-			  		Call Us : <?php echo $phone; ?>
+			  		<span class="d-none d-lg-inline-block">Call Us :</span> <?php echo $phone; ?>
 			  	</a>
 			  </li>
 

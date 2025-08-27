@@ -14,7 +14,7 @@
 <section class="container py-5">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="wrap-hding text-center pb-5">Escape for Less – Explore Our Latest Travel Offers</h2>
+      <h2 class="wrap-hding_001 text-center pb-5">Escape for Less – Explore Our Latest Travel Offers</h2>
     </div>
     <div class="col-md-4 mb-4">
       <div class="box-design">

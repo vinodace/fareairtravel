@@ -16,15 +16,15 @@
   <div class="container">  
     <div class="row">
       <div class="col-sm-12">
-        <h2 class="wrap-hding text-center pb-2">Special Offers Just for You</h2> 
+        <h2 class="wrap-hding_001_001 text-center pb-2">Special Offers Just for You</h2> 
         <p class="wrap-subhding text-center pb-5"> Grab amazing deals and exclusive discounts available today. Hurry, these offers won’t last!</p>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="offerbox">
-          <div class="offerimg">
+        <div class="offerbox_001">
+          <div class="offerimg_001">
             <img src="images/flight-offer.jpg" alt="">
           </div>
-          <div class="offer-textarea">
+          <div class="offer-textarea_001">
             <h4 class="offer-title">Smarter Flights, Better Savings! </h4>
             <h3 class="offer-subtitle">Upto 30% off</h3>
             <p class="offer-desc">Experience travel like never before with effortless booking, maximum comfort, and unbeatable flight deals. Save up to 30% on select routes and make every journey</p>
@@ -34,11 +34,11 @@
       </div>
       
       <div class="col-sm-6 col-md-4">
-        <div class="offerbox">
-          <div class="offerimg">
+        <div class="offerbox_001">
+          <div class="offerimg_001">
             <img src="images/hotel-offers.jpg" alt="">
           </div>
-          <div class="offer-textarea">
+          <div class="offer-textarea_001">
             <h4 class="offer-title">Longer Stays, Bigger Savings! </h4>
             <h3 class="offer-subtitle">Upto 40% off</h3>
             <p class="offer-desc">Find your ideal stay with up to 40% off on top-rated hotels. From vibrant city escapes to relaxing beach retreats, enjoy unmatched comfort at incredible prices. Hurry—this limited-time offer won’t last!</p>
@@ -47,11 +47,11 @@
         </div>        
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="offerbox">
-          <div class="offerimg">
+        <div class="offerbox_001">
+          <div class="offerimg_001">
             <img src="images/drive-car.jpg" alt="">
           </div>
-          <div class="offer-textarea">
+          <div class="offer-textarea_001">
             <h4 class="offer-title">Safe Rides, Worry-Free Travels </h4>
             <h3 class="offer-subtitle">Upto 30% off</h3>
             <p class="offer-desc">Enjoy every mile with trusted vehicles and full insurance coverage. Whether it’s a quick weekend getaway or a long road trip, drive stress-free and travel with confidence.</p>
@@ -60,11 +60,11 @@
         </div>        
       </div>
       <!-- <div class="col-sm-6 col-md-4">
-        <div class="offerbox">
-          <div class="offerimg">
+        <div class="offerbox_001">
+          <div class="offerimg_001">
             <img src="images/cruise-img.webp" alt="">
           </div>
-          <div class="offer-textarea">
+          <div class="offer-textarea_001">
             <h4 class="offer-title">Sail & Save – Special Offers</h4>
             <h3 class="offer-subtitle">Upto 50% off</h3>
             <p class="offer-desc">Set sail on your dream vacation with up to 50% off on cruise bookings! Explore stunning destinations with luxurious onboard experiences, all at unbeatable prices. Book now and cruise into savings!</p>
@@ -81,7 +81,7 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-12">
-          <h2 class="wrap-hding text-center pb-2">The Benefits of Booking Here</h2>
+          <h2 class="wrap-hding_001_001 text-center pb-2">The Benefits of Booking Here</h2>
           <p class="wrap-subhding text-center pb-4">Enjoy the best deals, hassle-free booking, and exceptional service every step of your journey.</p>
       </div>
       <div class="col-md-6">
@@ -154,13 +154,13 @@
 <section class="container py-5 mt-md-4">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="wrap-hding text-center pb-2">Adventure Awaits – Travel More, Spend Less</h2>
+      <h2 class="wrap-hding_001_001 text-center pb-2">Adventure Awaits – Travel More, Spend Less</h2>
       <p class="wrap-subhding text-center pb-5">Discover exciting destinations at unbeatable prices. Your next adventure is just a click away!</p>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-4">
       <div class="box-design border-0">
         <div class="topdest-area">
-          <img src="images/destination-2.jpg" alt="">
+          <img src="images/paris-gareway.jpg" alt="">
         </div>
         <div class="topdest-textarea">
           <p class="wrap-prgh text-white">
@@ -169,7 +169,7 @@
           <h3 class="topdest-name pb-2">Paris Getaway</h3>
         </div>
         <div class="topdest-btn-pos">
-          <a href="tel:+1-833-543-8024" class="wrap-btn">Book Now <span class="topdest-btn-price">$499</span></a>
+          <a href="tel:<?php echo $phone; ?>" class="wrap-btn">Book Now <span class="topdest-btn-price">$499</span></a>
         </div>
       </div>
     </div>
@@ -185,7 +185,7 @@
           <h3 class="topdest-name pb-2">Maldives Escape</h3>
         </div>
         <div class="topdest-btn-pos">
-          <a href="tel:+1-833-543-8024" class="wrap-btn">Book Now <span class="topdest-btn-price">$899</span></a>
+          <a href="tel:<?php echo $phone; ?>" class="wrap-btn">Book Now <span class="topdest-btn-price">$899</span></a>
         </div>
       </div>
     </div>
@@ -201,7 +201,7 @@
           <h3 class="topdest-name pb-2">Swiss Alps Adventure</h3>
         </div>
         <div class="topdest-btn-pos">
-          <a href="tel:+1-833-543-8024" class="wrap-btn">Book Now <span class="topdest-btn-price">$1199</span></a>
+          <a href="tel:<?php echo $phone; ?>" class="wrap-btn">Book Now <span class="topdest-btn-price">$1199</span></a>
         </div>
       </div>
     </div>
@@ -217,7 +217,7 @@
           <h3 class="topdest-name pb-2">Bali Bliss</h3>
         </div>
         <div class="topdest-btn-pos">
-          <a href="tel:+1-833-543-8024" class="wrap-btn">Book Now <span class="topdest-btn-price">$599</span></a>
+          <a href="tel:<?php echo $phone; ?>" class="wrap-btn">Book Now <span class="topdest-btn-price">$599</span></a>
         </div>
       </div>
     </div>
@@ -233,7 +233,7 @@
           <h3 class="topdest-name pb-2">Dubai Luxury Break</h3>
         </div>
         <div class="topdest-btn-pos">
-          <a href="tel:+1-833-543-8024" class="wrap-btn">Book Now <span class="topdest-btn-price">$699</span></a>
+          <a href="tel:<?php echo $phone; ?>" class="wrap-btn">Book Now <span class="topdest-btn-price">$699</span></a>
         </div>
       </div>
     </div>
@@ -249,7 +249,7 @@
           <h3 class="topdest-name pb-2">Tokyo Discovery</h3>
         </div>
         <div class="topdest-btn-pos">
-          <a href="tel:+1-833-543-8024" class="wrap-btn">Book Now <span class="topdest-btn-price">$899</span></a>
+          <a href="tel:<?php echo $phone; ?>" class="wrap-btn">Book Now <span class="topdest-btn-price">$899</span></a>
         </div>
       </div>
     </div>
@@ -259,7 +259,7 @@
 <section class="container">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="wrap-hding text-center pb-5">Recommended Hotels</h2>
+      <h2 class="wrap-hding_001_001 text-center pb-5">Recommended Hotels</h2>
     </div>
     <div class="col-md-12">
       <div class="position-relative">
@@ -273,7 +273,7 @@
 <section class="container pb-5">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="wrap-hding text-center pb-5">Where Every Trip Becomes a Memory</h2>
+      <h2 class="wrap-hding_001_001 text-center pb-5">Where Every Trip Becomes a Memory</h2>
     </div>
     <div class="col-md-12 mb-4">
       <div class="row">

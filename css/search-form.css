@@ -2,13 +2,13 @@
 .search-form-box {background: #fff; border-radius: 4px; padding:30px;}
 .search-form-title {font-size:14px; color: #999; margin: 0;}
 .search-form-name {font-size:22px; font-weight: 700; color: #000;}
-.search-form-to {font-size: 24px; font-weight: 700; color: #f03f60;}
+.search-form-to {font-size: 24px; font-weight: 700; color: #ef7f1a;}
 .search-form-list {margin: 0; padding:0px; display: flex; justify-content:center; }
 .search-form-list li {list-style: none; border-right: 1px solid #000; font-size: 13px; font-weight: 600; padding:0 15px;}
 .search-form-list li:last-child {border-right: none;}
 .search-form-hding {font-size: 26px; font-weight: 700; color: #2d479e; display: block; text-align: center;}
 .wait-hding {font-size: 24px; font-weight: 700; text-align: center; display: block; color: #223047;}
 .search-form-loader {width: 300px; margin:auto; display: block;}
-.search-form-callbtn {font-size: 14px; font-weight: 600; display: inline-block; text-align: center; text-transform: uppercase; background: #f03f60; color: #fff; border-radius: 4px; padding: 12px 20px; text-decoration: none; border:none; margin:30px auto 20px; display: table;}
+.search-form-callbtn {font-size: 14px; font-weight: 600; display: inline-block; text-align: center; text-transform: uppercase; background: #ef7f1a; color: #fff; border-radius: 4px; padding: 12px 20px; text-decoration: none; border:none; margin:30px auto 20px; display: table;}
 .search-form-callbtn:hover {color: #fff;}
 .search-form-callbtn > i {margin-right: 5px; font-size:16px;}

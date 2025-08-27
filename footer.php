@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row justify-content-between pb-5">
 			<div class="col-12 col-md-3">
-				<img src="images/logo-white.png" alt="" class="footer-logo_001">
+				<img src="images/logo.png" alt="" class="footer-logo_001">
 				<ul class="socialicon_001">
 					<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
 					<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
@@ -52,8 +52,8 @@
 				</div>		
 			</div>
 			<div class="col-md-12">
-				<p class="footer-desclaimer_001 pt-3">
-					<strong>Disclaimer:</strong> This website offers access to flights, hotels, car rentals, and cruises through trusted third-party suppliers and partners. We operate solely as an intermediary and are not the provider of these travel services. All bookings are governed by the terms, conditions, and policies of the respective third-party providers. While we strive to display accurate information, we do not guarantee availability, pricing, or service accuracy and cannot be held responsible for changes, cancellations, or issues arising from the provider. We strongly recommend reviewing the provider’s terms and conditions before confirming any booking.
+				<p class="footer-desclaimer_001 text-center pt-3">
+					<strong>Disclaimer</strong><br> Our platform connects you with flights, hotels, car rentals, and cruises offered by trusted third-party providers. We act only as an intermediary and do not supply these services directly. All reservations are subject to the terms, conditions, and policies of the respective providers. While we aim to present accurate and updated information, we cannot guarantee pricing, availability, or service accuracy and are not liable for any changes, cancellations, or service-related issues. Please review the provider’s terms and conditions carefully before completing your booking.
 				</p>
 			</div>
 		</div>
@@ -81,7 +81,7 @@
 <script type="text/javascript">
 	 $(document).ready(function(){
 		 	// Show Mobile Menu
-	    $('.mobicon').click(function(){
+	    $('.mobile_menu_icon').click(function(){
 		    $('.deskmobmenu').addClass('show-deskmobmenu').removeClass('close-deskmobmenu');
 		  });
 		  // Close Mobile Menu
