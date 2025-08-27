@@ -2,9 +2,9 @@
 <html>
 
 <head>
-  <title>Fareair Travel | Book Flights, Hotels, Cars & Tours</title>
+  <title>Fareair Travel | Book Flights, Hotels, Car & Tours</title>
 
-<meta property="og:title" content="Fareair Travel | Book Flights, Hotels, Cars & Tours" />
+<meta property="og:title" content="Fareair Travel | Book Flights, Hotels, Car & Tours" />
 <meta property="og:description" content="Book flights, hotels, car rentals, and tours in one place. Discover affordable deals, secure bookings, and unforgettable travel experiences worldwide." />
 <meta property="og:url" content="https://www.fareairtravel.com/" />
 <meta property="og:image" content="https://www.fareairtravel.com/logo.png" />
