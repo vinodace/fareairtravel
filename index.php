@@ -4,6 +4,12 @@
 <head>
   <title>Fareair Travel | Book Flights, Hotels & Tours</title>
 
+<meta property="og:title" content="Fareair Travel | Book Flights, Hotels & Tours" />
+<meta property="og:description" content="Book flights, hotels, car rentals, and tours in one place. Discover affordable deals, secure bookings, and unforgettable travel experiences worldwide." />
+<meta property="og:url" content="https://www.fareairtravel.com/" />
+<meta property="og:image" content="https://www.fareairtravel.com/logo.png" />
+<meta property="og:type" content="website" />
+
 <?php include("header.php"); ?>
 <div class="position-relative">
   <script charset="utf-8" type="text/javascript" src="https://flights.fareairtravel.com/iframe.js"></script>
