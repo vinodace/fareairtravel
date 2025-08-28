@@ -1,5 +1,5 @@
 <?php 
-	$phone = "+1-800-123-4567";
+	$phone = "+1-855-754-6011 ";
 	$email = "support@fareairtravel.com";
 	$domainname_url ="fareairtravel.com";
 	$domainname = "Fareair Travel";
