@@ -12,11 +12,11 @@ header {position: relative; z-index: 9; left: 0; right: 0; top: 0; padding:0px 0
 .navbar-nav { color:#000; }
 .nav-link { color:#c3d0f8 !important; font-weight: 400 !important;  font-size: 14px !important; margin-left:12px; display: flex; align-items: center; border-bottom: 2px solid transparent;}
 .menu-svgicon {width: 25px; height: 25px; fill: #fff; margin-right: 5px;}
-.navbar-nav > li:hover > a, .navbar-nav > li a.active {color: #000 !important;}
+.navbar-nav > li:hover > a, .navbar-nav > li a.active {color: #ef7f1a !important;}
 .navbar-nav > li:hover > a > svg {fill: #000;}
 .navbar-nav > li > a > i {padding-right: 5px;}
 .header-btn { background: #ef7f1a; border:1px solid #ef7f1a; color:#fff !important; font-size:14px !important; font-weight: 600; padding:8px 15px !important; border-radius: 4px; }
-.navbar-nav > li:hover > a.header-btn {fill:#ffffff;}
+.navbar-nav > li:hover > a.header-btn {color:#ffffff !important;}
 .header-btn-outline { background: transparent; border:1px solid #fff; color:#fff !important; font-size:14px !important; font-weight: 600; padding:8px 25px !important; border-radius: 4px; }
 .header-btn-outline:hover {background: #fff; color:#000 !important; border-bottom: none;}
 .navlr-pad {padding:15px 0 !important;}
