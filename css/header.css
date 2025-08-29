@@ -21,7 +21,7 @@ header {position: relative; z-index: 9; left: 0; right: 0; top: 0; padding:0px 0
 .header-btn-outline:hover {background: #fff; color:#000 !important; border-bottom: none;}
 .navlr-pad {padding:15px 0 !important;}
 .dropdown-item a:visited {background: #f7f7f7;}
-.logo { width:200px; position: relative; }
+.logo { width:60px; position: relative; }
 .topestd { padding: 5px 0 5px 23px; margin-bottom: 0; font-size: 14px; }
 .mobile_menu_icon {display: none; flex-direction: column; height: 100%; align-items: start;  justify-content: center; margin-top:12px;}
 .mobile_menu_icon > span {width: 35px; height: 3px; background: #ef7f1a; margin-bottom: 7px; display: block; transition: all 0.3s ease-in-out;}

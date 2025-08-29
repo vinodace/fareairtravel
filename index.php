@@ -24,7 +24,7 @@
   <div class="container">  
     <div class="row">
       <div class="col-sm-12">
-        <h2 class="wrap-hding_001_001 text-center pb-2">Special Offers Just for You</h2> 
+        <h2 class="wrap-hding_001 text-center pb-2">Special Offers Just for You</h2> 
         <p class="wrap-subhding text-center pb-5"> Grab amazing deals and exclusive discounts available today. Hurry, these offers won’t last!</p>
       </div>
       <div class="col-sm-6 col-md-4">
@@ -89,7 +89,7 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-12">
-          <h2 class="wrap-hding_001_001 text-center pb-2">The Benefits of Booking Here</h2>
+          <h2 class="wrap-hding_001 text-center pb-2">The Benefits of Booking Here</h2>
           <p class="wrap-subhding text-center pb-4">Enjoy the best deals, hassle-free booking, and exceptional service every step of your journey.</p>
       </div>
       <div class="col-md-6">
@@ -162,7 +162,7 @@
 <section class="container py-5 mt-md-4">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="wrap-hding_001_001 text-center pb-2">Adventure Awaits – Travel More, Spend Less</h2>
+      <h2 class="wrap-hding_001 text-center pb-2">Adventure Awaits – Travel More, Spend Less</h2>
       <p class="wrap-subhding text-center pb-5">Discover exciting destinations at unbeatable prices. Your next adventure is just a click away!</p>
     </div>
     <div class="col-md-4 mb-4">
@@ -267,7 +267,7 @@
 <section class="container">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="wrap-hding_001_001 text-center pb-5">Recommended Hotels</h2>
+      <h2 class="wrap-hding_001 text-center pb-5">Recommended Hotels</h2>
     </div>
     <div class="col-md-12">
       <div class="position-relative">
@@ -281,7 +281,7 @@
 <section class="container pb-5">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="wrap-hding_001_001 text-center pb-5">Where Every Trip Becomes a Memory</h2>
+      <h2 class="wrap-hding_001 text-center pb-5">Where Every Trip Becomes a Memory</h2>
     </div>
     <div class="col-md-12 mb-4">
       <div class="row">

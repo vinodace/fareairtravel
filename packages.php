@@ -15,7 +15,7 @@
     <div class="col-md-4">
       <div class="box-design border-0">
         <div class="topdest-area">
-          <img src="images/destination-2.jpg" alt="">
+          <img src="images/paris-gareway.jpg" alt="">
         </div>
         <div class="topdest-textarea">
           <p class="wrap-prgh_001 text-white">
